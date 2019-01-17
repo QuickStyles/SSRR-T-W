@@ -9,7 +9,7 @@
     "webpack-client-watch": "webpack --watch --config webpack.config.client.dev.js",
     "start-server-dev": "nodemon NODE_ENV=development bin/www",
     "start-client-server-watch": "npm run webpack-server-watch & npm run webpack-client-watch",
-    "start-dev": "npm run start-client-server-watch & npm run start-server-dev" 
+    "start-dev": "npm run start-client-server-watch & npm run start-server-dev"
   },
   "dependencies": {
     "animejs": "^2.2.0",
